@@ -1,0 +1,64 @@
+.NavbarItems{
+    background-color: grey;
+    width: 100%;
+    /* position:absolute; */
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-logo{
+    font-size: 25px;
+    letter-spacing: 10px;
+    color: #24e1bc;
+    padding-left:10px;
+    padding-top:10px;
+}
+.divider1{
+    color: #e74c3c;
+}
+.divider2{
+    color: #f9c922;
+}
+#func{
+    font-style: italic;
+    color: white;
+}
+#disabled{
+    cursor:default;
+    color: #24e1bc;
+    font-style: italic;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+.nav-links{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    font-style: italic;
+    color:#24e1bc;
+}
+.burger{
+    display: none;
+}
+.burger div{
+    width: 6px;
+    height: 6px;
+    margin: 7px;
+    border-radius: 50%;
+    background-color: white; 
+    transition: all 0.5s ease;
+}
