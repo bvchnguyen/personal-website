@@ -1,5 +1,5 @@
 .NavbarItems{
-    background-color: grey;
+    /* background-color: grey; */
     width: 100%;
     /* position:absolute; */
     display: flex;
@@ -11,54 +11,40 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-.navbar-logo{
-    font-size: 25px;
+.Items{
+    /* padding-top: 4%; */
+    /* background-color: #24e1bc; */
+    display: flex;
+    justify-content: center;
+}
+.Navbar-logo{
+    font-size: 30px;
     letter-spacing: 10px;
     color: #24e1bc;
     padding-left:10px;
-    padding-top:10px;
-}
-.divider1{
-    color: #e74c3c;
-}
-.divider2{
-    color: #f9c922;
-}
-#func{
-    font-style: italic;
-    color: white;
-}
-#disabled{
-    cursor:default;
-    color: #24e1bc;
-    font-style: italic;
 }
 .nav-menu{
     display: flex;
     justify-content: space-around;
     width: 50%;
     list-style: none;
+    text-align: center;
 }
-.nav-links{
+.Nav-links{
     font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 5px;
     font-weight: bold;
+    text-align: center;
 }
-.nav-links a:hover{
+.itemIcon{
+    display: flex;
+}
+.Nav-links:hover{
     font-style: italic;
     color:#24e1bc;
-}
-.burger{
-    display: none;
-}
-.burger div{
-    width: 6px;
-    height: 6px;
-    margin: 7px;
-    border-radius: 50%;
-    background-color: white; 
-    transition: all 0.5s ease;
+    cursor: pointer;
 }
