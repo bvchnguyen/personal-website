@@ -3,8 +3,8 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    min-height: 100vh;
     box-sizing: border-box;
     padding-left: 8%;
     padding-top: 10%;
@@ -42,4 +42,23 @@
     box-shadow: inset 300px 0 0 0 #24e1bc;
     color: #222;
     font-style: italic;
+    cursor: pointer;
+}
+.About, .Major, .State{
+    font-size: 22px;
+}
+.About{
+    margin-top: 0%;
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-bottom: 4%;
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+}
+.Major{
+    color: #24e1bc;
+}
+.State{
+    color: #ffc600;
 }

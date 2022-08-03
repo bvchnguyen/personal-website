@@ -1,0 +1,49 @@
+.resumeContainer{
+    /* background-color: grey; */
+    /* font-family: 'Source Code Pro', monospace; */
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+.resumeTitle{
+    background-color: white;
+    color: #151515;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.resume-menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.resume-link{
+    background-color: white;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-size: 17px;
+    color:#151515;;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.resumeTemplate{
+    padding: 50px;
+    background-color: white;
+    height: 1000px;
+    width: 1000px;
+}
+.education{
+    background-color: white;
+}

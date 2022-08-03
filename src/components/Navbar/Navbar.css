@@ -12,8 +12,6 @@
     padding-bottom: 0;
 }
 .Items{
-    /* padding-top: 4%; */
-    /* background-color: #24e1bc; */
     display: flex;
     justify-content: center;
 }
@@ -32,7 +30,7 @@
 }
 .Nav-links{
     font-family: 'Source Code Pro', monospace;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     text-decoration: none;
     font-weight: bold;

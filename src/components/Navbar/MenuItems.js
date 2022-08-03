@@ -13,10 +13,10 @@ export const MenuItems = [
         title: 'ABOUT',
         url: '#',
         cName: 'Nav-links',
-        itemIcon: <AiOutlineUser size="20px" style={{ marginBottom: "5px"}}/>
+        itemIcon: <AiOutlineUser size="20px" style={{ marginBottom: "2px"}}/>
     },
     {
-        title: 'PROJECT',
+        title: 'PROJECTS',
         url: '#',
         cName: 'Nav-links', 
         itemIcon: <BiCodeCurly style={{
