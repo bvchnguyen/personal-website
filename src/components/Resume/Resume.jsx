@@ -1,6 +1,8 @@
 import { Component } from "react";
-import ResumeHeading from "./ResumeHeading";
+import { ResumeHeading, Education, Experience} from "./ResumeHeading";
 import './Resume.css';
+import { BiFontFamily, BiFontSize } from "react-icons/bi";
+import Button from 'react-bootstrap/Button';
 
 const ResumeItem = [
     {
@@ -36,10 +38,6 @@ const Hline = ({ color }) => (
         }}
     />
 );
-const consistentBG = {
-    color: '#151515',
-    backgroundColor: 'white'
-}
 
 class Resume extends Component{
 
@@ -58,12 +56,12 @@ class Resume extends Component{
                         })}
                     </ul>
                     <Hline />
-                    <ResumeHeading>SKILLS</ResumeHeading>
-                    <div className="education">
-                        <h1 style={consistentBG}>University of Colorado boulder</h1>
-                        <p style={consistentBG}>B.A Computer Science</p>
-                    </div>
+                    <ResumeHeading href="#">SKILLS</ResumeHeading>
                     <ResumeHeading>EXPERIENCE</ResumeHeading>
+                    <Experience />
+                    <ResumeHeading>EDUCATION</ResumeHeading>
+                    <Education />
+                    <ResumeHeading>COURSES</ResumeHeading>
                 </div>
             </div>
         )
