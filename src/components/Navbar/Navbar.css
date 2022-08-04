@@ -1,5 +1,4 @@
 .NavbarItems{
-    /* background-color: grey; */
     width: 100%;
     /* position:absolute; */
     display: flex;
@@ -18,7 +17,7 @@
 .Navbar-logo{
     font-size: 30px;
     letter-spacing: 10px;
-    color: #24e1bc;
+    color: #FF4B38;
     padding-left:10px;
 }
 .nav-menu{
@@ -28,21 +27,39 @@
     list-style: none;
     text-align: center;
 }
-.Nav-links{
-    font-family: 'Source Code Pro', monospace;
-    font-size: 17px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-align: center;
-}
 .itemIcon{
     display: flex;
+}                                                                          
+.Nav-links{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    font-size: 17px;
+    color: #565656;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 500;
 }
 .Nav-links:hover{
     font-style: italic;
-    color:#24e1bc;
-    cursor: pointer;
+}
+a.Nav-links{
+	position: relative;
+}
+ 
+a.Nav-links:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 4px;
+	bottom: -5px;
+	left: 0;
+	background-color: #FF4B38;
+	visibility: hidden;
+	transition: all 0.4s ease-in-out;
+}
+ 
+a.Nav-links:hover:before {
+	visibility: visible;
+	width: 100%;
 }
