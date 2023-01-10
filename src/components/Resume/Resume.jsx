@@ -2,7 +2,7 @@ import { Component } from "react";
 import { ResumeHeading, Education, Experience} from "./ResumeHeading";
 import './Resume.css';
 import { BiFontFamily, BiFontSize } from "react-icons/bi";
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 const ResumeItem = [
     {

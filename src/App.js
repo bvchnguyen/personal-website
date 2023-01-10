@@ -8,9 +8,7 @@ function App(){
         <div className="App">
             <Navbar />
             <Landing />
-            <Resume />
         </div>
     );   
 }
-
 export default App;

@@ -2,7 +2,7 @@
     /* background-color: grey; */
     /* font-family: 'Source Code Pro', monospace; */
     position: relative;
-    display: inline-block;
+    display: flex;
     flex-direction: row;
     width: 100%;
     min-height: 100vh;
@@ -17,6 +17,7 @@
     width: 1000px;
     position: relative;
     flex-direction: column;
+    justify-content: center;
 }
 .resumeTitle{
     background-color: white;

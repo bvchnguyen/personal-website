@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Landing.css";
-import resume from "/Users/bachnguyen/Documents/personal-website/src/images/resume.pdf";
+import resume from "/Users/bvch/Documents/personal-website/src/images/resume.pdf";
 
 const dotsStyling = {
     letterSpacing: 3,
